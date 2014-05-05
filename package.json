@@ -1,11 +1,15 @@
 {
   "name": "lysergix",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "MAKE FACES ((((((O))))))((((((O))))))))",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "mocha": "^1.18.2"
+  }
 }

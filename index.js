@@ -1,5 +1,6 @@
 module.exports = {
- "faces":[
+ tags: [],
+ faces:[
   {"content": "( ≧Д≦ )", "tag": "angry" },
   {"content": "( ≧Д≦)", "tag" : "angry"},
   {"content": "o(-`д´- ｡)", "tag": "angry" },
@@ -497,7 +498,6 @@ module.exports = {
   {"content": "( °̥̥̥̥̥̥̥̥˟°̥̥̥̥̥̥̥̥ )", "tag": "rabbits"},
   {"content": "(⁎˃ᆺ˂)", "tag": "rabbits"},
   {"content": "૮⍝◜•˕̮•◝⍝ა", "tag": "rabbits"},
-  {"content": "", "tag": "rabbits"},
   {"content": "૮( ᵒ̌ૢ௰ᵒ̌ૢ )ა", "tag": "rabbits"},
   {"content": "૮(⋆❛ہ❛⋆)ა", "tag": "rabbits"},
   {"content": "( ்̓˟்̓)", "tag": "rabbits"},
@@ -569,7 +569,7 @@ module.exports = {
   {"content": "੯ू❛ัू ໒꒱", "tag": "other animals"},
   {"content": "ฅ ̳͒•ˑ̫• ̳͒ฅ", "tag": "other animals"},
   {"content": "⍝◜῁●⌔⃝●῁◝⍝₌₃", "tag": "other animals"},
-  {"content": ""ि०॰͡०ी", "tag": "other animals"},
+  {"content": " ि०॰͡०ी   ", "tag": "other animals"},
   {"content": "(০გ০)", "tag": "other animals"},
   {"content": "Ψ(●◜ ཅ ◝●)Ψ", "tag": "other animals"},
   {"content": "૮(ꆚꁝꆚ)ა", "tag": "other animals"},
@@ -895,7 +895,6 @@ module.exports = {
   {"content": "∩˙▿˙∩", "tag": "love"},
   {"content": "ॱ॰⋆(˶ॢ‾᷄﹃‾᷅˵ॢ)ӵᵘᵐᵐᵞ♡♡♡", "tag": "love"},
   {"content": "(•⚗৺⚗•)", "tag": "love"},
-  {"content": "( c//”-}{-*\x)", "tag": "love"},
   {"content": "(｡-_-｡ )人( ｡-_-｡)", "tag": "love"},
   {"content": "(‘∀’●)♡", "tag": "love"},
   {"content": "(*´∀｀*人*´∀｀*)", "tag": "love"},
@@ -1224,7 +1223,6 @@ module.exports = {
   {"content": "(´°̥̥̥̥̥̥̥̥ω°̥̥̥̥̥̥̥̥｀)", "tag": "sad"},
   {"content": "(ﾟ´Д｀ﾟ)ﾟ", "tag": "sad"},
   {"content": "(∩︵∩)", "tag": "sad"},
-  {"content": "", "tag": "sad"},
   {"content": "(╯︵╰,)", "tag": "sad"},
   {"content": "(▰˘︹˘▰)", "tag": "sad"},
   {"content": "(✖╭╮✖)", "tag": "sad"},
@@ -1260,7 +1258,6 @@ module.exports = {
   {"content": "(*´°̥̥̥̥̥̥̥̥﹏°̥̥̥̥̥̥̥̥ )人(´°̥̥̥̥̥̥̥̥ω°̥̥̥̥̥̥̥̥｀)", "tag": "sad"},
   {"content": "(⁎•̛̣̣꒶̯•̛̣̣⁎)", "tag": "sad"},
   {"content": "(/ _ ; )", "tag": "sad"},
-  {"content": "", "tag": "sad"},
   {"content": "(′︿‵｡)", "tag": "sad"},
   {"content": "(´＿｀。)", "tag": "sad"},
   {"content": "（´＿｀）", "tag": "sad"},
@@ -1314,7 +1311,6 @@ module.exports = {
   {"content": "(　-̥̥̥̥̥̥̥̥̥̥̥̥̥̥̥̥̥̥̥̥̥̥̥̥̥᷄◞ω◟-̥̥̥̥̥̥̥̥̥̥̥̥̥̥̥̥̥̥̥̥̥̥̥̥̥᷅ )", "tag": "sad"},
   {"content": "(づ-̩̩̩-̩̩̩_-̩̩̩-̩̩̩)づ", "tag": "sad"},
   {"content": "( °̥̥̥̥̥̥̥̥˟°̥̥̥̥̥̥̥̥  )", "tag": "sad"},
-  {"content": "", "tag": "sad"},
   {"content": "(ᗒᗣᗕ)՞", "tag": "sad"},
   {"content": "૮( ꒦ິ⍣꒦ີ )ა", "tag": "sad"},
   {"content": "(.﹒︣︿﹒︣.)", "tag": "sad"},
@@ -1455,7 +1451,6 @@ module.exports = {
   {"content": "٩(๑•◡-๑)۶ⒽⓤⒼ❤", "tag": "hugging"},
   {"content": "(╯3╰)", "tag": "kissing"},
   {"content": "( ˘ ³˘ )♥", "tag": "kissing"},
-  {"content": "( c//”-}{-*\x)", "tag": "kissing"},
   {"content": "(-ε- )", "tag": "kissing"},
   {"content": "(TεT)", "tag": "kissing"},
   {"content": "ლ(´◉❥◉｀ლ)", "tag": "kissing"},
@@ -1523,7 +1518,6 @@ module.exports = {
   {"content": "ʕ̡̢̡̡̢̡̡̢♡ᵒ̴̷͈艸ᵒ̴̷͈॰ʔ̢̡̢̢̡̢̢̡̢✧", "tag": "laughing"},
   {"content": "Σ (੭ु ຶਊ ຶ)੭ु⁾⁾", "tag": "laughing"},
   {"content": "ꉂ (ᵔ̴̶̤᷄ꇴ ॣᵔ̴̶̤᷅⌯))л̵ʱªʱª⁎*.＊", "tag": "laughing"},
-  {"content": "", "tag": "laughing"},
   {"content": " (* ˚᷄ 艸 ˚᷅ *)", "tag": "laughing"},
   {"content": " (˵¯̴͒ꇴ¯̴͒˵)", "tag": "laughing"},
   {"content": " Σ(꒪ॢ∀꒪;)՞л̵ʱªʱª", "tag": "laughing"},
@@ -1542,7 +1536,6 @@ module.exports = {
   {"content": "(´△｀)♪", "tag": "music"},
   {"content": "(´▽｀)ノ♪", "tag": "music"},
   {"content": "(´0ﾉ｀*)", "tag": "music"},
-  {"content": "（^"music"＾）／♪", "tag": "music"},
   {"content": "（＾3＾♪", "tag": "music"},
   {"content": "（＾Ｏ＾☆♪", "tag": "music"},
   {"content": "(ღ˘⌣˘ღ) ♫･*:.｡. .｡.:*･", "tag": "music"},
@@ -1704,7 +1697,7 @@ module.exports = {
   {"content": "o(╥﹏╥)o", "tag": "crying"},
   {"content": "o(TヘTo)", "tag": "crying"},
   {"content": "ͼ(ݓ_ݓ)ͽ", "tag": "crying"},
-  {"content": "&nbsp;(　-̥̥̥̥̥̥̥̥̥̥̥̥̥̥̥̥̥̥̥̥̥̥̥̥̥᷄◞ω◟-̥̥̥̥̥̥̥̥̥̥̥̥̥̥̥̥̥̥̥̥̥̥̥̥̥᷅ )", "tag": "crying"},
+  {"content": " (　-̥̥̥̥̥̥̥̥̥̥̥̥̥̥̥̥̥̥̥̥̥̥̥̥̥᷄◞ω◟-̥̥̥̥̥̥̥̥̥̥̥̥̥̥̥̥̥̥̥̥̥̥̥̥̥᷅ )", "tag": "crying"},
   {"content": "(づ-̩̩̩-̩̩̩_-̩̩̩-̩̩̩)づ", "tag": "crying"},
   {"content": "( °̥̥̥̥̥̥̥̥˟°̥̥̥̥̥̥̥̥  )", "tag": "crying"},
   {"content": "( ͒ ඉ .̫ ඉ ͒ )", "tag": "crying"},
@@ -1719,7 +1712,7 @@ module.exports = {
   {"content": "(꒦ິ⍸꒦ິ)", "tag": "crying"},
   {"content": "ლ(ٱ٥ٱლ)", "tag": "crying"},
   {"content": "Ψ(●°̥̥̥̥̥̥̥̥ ཅ °̥̥̥̥̥̥̥̥●)Ψ", "tag": "crying"},
-  {"content": "&nbsp;٩(⌯꒦ິ̆ᵔ꒦ິ)۶ᵒᵐᵍᵎᵎᵎ", "tag": "crying"},
+  {"content": " ٩(⌯꒦ິ̆ᵔ꒦ິ)۶ᵒᵐᵍᵎᵎᵎ", "tag": "crying"},
   {"content": "(۶ꈨຶꎁꈨຶ )۶ʸᵉᵃʰᵎ", "tag": "crying"},
   {"content": "ৎ｡ ॄཻ͡⁎̥̥̥̥̥̥ૂॽ ))", "tag": "crying"},
   {"content": "(;-_-)/", "tag": "giving up"},
@@ -1785,10 +1778,9 @@ module.exports = {
   {"content": "°◦=͟͟͞͞ʕ̡̢̡ु•̫͡•ʔ̡̢̡ु ☏", "tag": "running"},
   {"content": "- =͟͟͞͞ =͟͟͞͞ ﾍ( ´Д` )ﾉ", "tag": "running"},
   {"content": "─=≡Σ((( つ•̀ω•́ )つ", "tag": "running"},
-  {"content": "&nbsp;C= C= C= C= C= C= C= C= C= ┌(;・ω・)┘", "tag": "running"},
-  {"content": ""͛꒰ू ऀ•̥́ꈊ͒ੁ•ૅू॰˳ऀ꒱", "tag": "running"},
+  {"content": "C= C= C= C= C= C= C= C= C= ┌(;・ω・)┘", "tag": "running"},
   {"content": "੯ू•́ू ໒꒱⁼³₌₃", "tag": "running"},
-  {"content": "&nbsp;=͟͟͞͞( ∩ ‘ヮ’=͟͟͞͞ ) ੭ु⁾⁾", "tag": "running"},
+  {"content": "=͟͟͞͞( ∩ ‘ヮ’=͟͟͞͞ ) ੭ु⁾⁾", "tag": "running"},
   {"content": "ε=ε=ε=ε=ε=ε=┌(๑ʘ∀ʘ)┘", "tag": "running"},
   {"content": "৫(”ړ৫)˒˒˒˒", "tag": "running"},
   {"content": "=͟͟͞͞ ➵=͟͟͞͞⁽⁽◞(꒪ͦ ˈ̫̮ ꒪ͦ=͟͟͞͞ ꒪ͦ ˈ̫̮ ꒪ͦ)◟⁾⁾➴", "tag": "running"},
@@ -1800,7 +1792,7 @@ module.exports = {
   {"content": "=͟͟͞͞(๑•̀=͟͟͞͞(๑•̀д•́=͟͟͞͞(๑•̀д•́๑)=͟͟͞͞(๑•̀д•́)))", "tag": "running"},
   {"content": "٩꒰´·⌢•｀꒱۶⁼³₌₃", "tag": "running"},
   { "content": "( •_• ) ( •_• )&gt;⌐■-■ (⌐■_■)", "description": "Putting on sunglasses", "tag": "other actions"},
-  { "content": "( ∙_∙ )&nbsp;( ∙_∙ )&gt;⌐■-■&nbsp;(⌐■_■)", "description": "Putting on sunglasses (alternate)", "tag": "other actions" },
+  { "content": "( ∙_∙ ) ( ∙_∙ )&gt;⌐■-■ (⌐■_■)", "description": "Putting on sunglasses (alternate)", "tag": "other actions" },
   { "content": "(／_^)／ 　　　　　　●　＼(^_＼)", "description": "Playing catch", "tag": "other actions" },
   { "content": "(☞ﾟ∀ﾟ)☞", "description": "Pointing", "tag": "other actions" },
   { "content": "＼(ﾟｰﾟ＼)", "description": "Raise the roof!", "tag": "other actions" },
@@ -1890,7 +1882,7 @@ module.exports = {
   { "content": "◟( ྃ༎͞ ྃ )◞", "description": "Drooling", "tag": "other actions" },
   { "content": "˭̡̞(◞⁎˃ᆺ˂)◞₎₎=͟͟͞͞˳˚॰°ₒ৹๐", "description": "Throwing snowballs", "tag": "other actions" },
   { "content": "‘`ﾛｰヽ(⊡ㅂ⊡｡ Ξ ｡⊡ㅂ⊡)ﾉ ‘`ﾛｰ", "description": "Waving in opposite directions?", "tag": "other actions" },
-  { "content": "&nbsp;＿|￣| ⍤⃝", "description": "Crawling", "tag": "other actions" },
+  { "content": " ＿|￣| ⍤⃝", "description": "Crawling", "tag": "other actions" },
   { "content": "╭ (o^o#)ᕗ-(-w-)", "description": "Stop hitting yourself", "tag": "other actions" },
   { "content": "(۶ૈ ۜ ᵒ̌▱๋ᵒ̌ )۶ૈ=͟͟͞͞ ⌨", "description": "Throwing your keyboard in anger", "tag": "other actions" },
   { "content": "˛˛ꉂ ◞•̀д•́)◞⚔◟(•̀д•́◟ )", "description": "Sword fighting", "tag": "other actions" },
@@ -1950,7 +1942,7 @@ module.exports = {
   {"content": "&lt;(¬＿¬&lt;) o&lt;(¬＿¬&lt;) (&gt;0o0)&gt;==============O", "tag": "characters"},
   {"content": "| (•□•) | (❍ᴥ❍ʋ)", "tag": "characters"},
   {"content": "╰( ´・ω・ )つ──☆✿✿✿✿✿✿", "tag": "characters"},
-  {"content": "&nbsp;ヾ(*Φ∀Φ)ﾉ", "tag": "characters"},
+  {"content": " ヾ(*Φ∀Φ)ﾉ", "tag": "characters"},
   {"content": "੯ू•́ू ໒꒱⁼³₌₃", "tag": "characters"},
   {"content": "੯ू❛ัू ໒꒱", "tag": "characters"},
   {"content": "ʕ •́؈•̀ ₎", "tag": "characters"},
@@ -1987,7 +1979,6 @@ module.exports = {
   {"content": "꒰๑•̮̮́౪•̮̮̀๑꒱", "tag": "clouds"},
   {"content": "꒰๑͒•̀ुꇵ͒•꒱و", "tag": "clouds"},
   {"content": "꒰ღ˘‿˘ற꒱❤⃛", "tag": "clouds"},
-  {"content": ""͛꒰ू ऀ•̥́ꈊ͒ੁ•ૅू॰˳ऀ꒱", "tag": "clouds"},
   {"content": "꒰ू•௰ू•๑꒱", "tag": "clouds"},
   {"content": "꒰ෆ❛ั ु▿❛ั ु꒱", "tag": "clouds"},
   {"content": "٩꒰ ̃•ε• ̃๑꒱۶⁼³₌₃", "tag": "clouds"},
@@ -2003,7 +1994,6 @@ module.exports = {
   {"content": "٩꒰๑• ³•๑꒱۶", "tag": "clouds"},
   {"content": "٩꒰ɵ̥̥▿ɵ̥̥●꒱۶", "tag": "clouds"},
   {"content": "٩꒰ʘʚʘ๑꒱۶", "tag": "clouds"},
-  {"content": ""ू꒰ꇐωꇐ ू꒱", "tag": "clouds"},
   {"content": "ꉂꉂ꒰•̤▿•̤*ૢ꒱", "tag": "clouds"},
   {"content": "ପ꒰⑅°͈꒳°͈꒱੭ु⁾⁾", "tag": "clouds"},
   {"content": "꒰⑅ᵕ༚ᵕ꒱˖♡", "tag": "clouds"},
@@ -2045,7 +2035,7 @@ module.exports = {
   {"content": "(｡´✚ฺω✚ฺ｀｡)", "tag": "dead"},
   {"content": "* ूི×̺͡×ू ྀ⁎*☠⁎ꂚ*ᵎᵎᵎ", "tag": "dead"},
   {"content": "“ψ(｀∇´)ψ", "tag": "evil"},
-  {"content": "&nbsp;(。-`ω´-)", "tag": "evil"},
+  {"content": " (。-`ω´-)", "tag": "evil"},
   {"content": "(=｀(∞)´=)", "tag": "evil"},
   {"content": "(○｀ε´○)／＼(○｀ε´○)", "tag": "evil"},
   {"content": "“ψ(｀∇´)ψ", "tag": "evil"},
@@ -2150,7 +2140,7 @@ module.exports = {
   {"content": "˓˓(ृ　 ु ॑꒳’)ु(ृ’꒳ ॑ ृ　)ु˒˒˒", "tag": "friends"},
   {"content": "♬♩˂₍͔⁽ˆ⁰ˆ⁾₎͔˃ ͟͟͞͞≣͟ ͟͟͞͞˂₍͕⁽ˆ⁰ˆ⁾₎͕˃♪♫", "tag": "friends"},
   {"content": "(⁎·́௰·̀)◞ ͂͂(˒̩̩̥́௰˓̩̩̥̀⁎)", "tag": "friends"},
-  {"content": "&nbsp;*✲ﾟ*｡✧٩(･ิᴗ･ิ๑)۶٩(･ิᴗ･ิ๑)۶*✲ﾟ*｡✧", "tag": "friends"},
+  {"content": " *✲ﾟ*｡✧٩(･ิᴗ･ิ๑)۶٩(･ิᴗ･ิ๑)۶*✲ﾟ*｡✧", "tag": "friends"},
   {"content": "(;•͈́༚•͈̀)(•͈́༚•͈̀;)՞༘՞༘՞", "tag": "friends"},
   {"content": "¯\_(ツ)_/¯", "tag": "meh"},
   {"content": "ƪ(‾ε‾“)ʃ", "tag": "meh"},
@@ -2238,17 +2228,43 @@ module.exports = {
   {"content": "୧꒰๑͒•͈ꇵ͒•͈๑͒꒱୨ᵎᵎ✧", "tag": "wtf"},
   {"content": "v(;´༎ຶД༎ຶ`)v", "tag": "wtf"},
   {"content": "6", "tag": "wtf"},
-  {"content": "", "tag": "wtf"},
   {"content": "o͡͡͡͡͡͡͡͡͡͡͡͡͡͡╮༼;´༎ຶ.̸̸̸̸̸̸̸̸̸̸̸̸̸̸̸̸̸̸̸̸̸̸̸̸̨̨̨̨̨̨̨̨̨̨̨̨.̸̸̨̨۝ ༎ຶ༽╭o͡͡͡͡͡͡͡͡͡͡͡͡͡͡", "tag": "wtf"},
   {"content": "ʅ͡͡͡͡͡͡͡͡͡͡͡(Ɵ۝Ө)ʃ͡͡͡͡͡͡͡͡͡͡", "tag": "wtf"},
   {"content": "o͡͡͡͡͡͡͡͡͡͡͡͡͡͡╮(;´༎ຶД༎ຶ`)╭o͡͡͡͡͡͡͡͡͡͡͡͡͡͡", "tag": "wtf"},
-  {"content": "", "tag": "wtf"},
   {"content": "ཀ༼ༀ༽ཫ་῍̩̖̬ ̎ ̎✧", "tag": "wtf"},
   {"content": "╰U╯☜(◉ɷ◉ )", "tag": "wtf"},
   {"content": "( ◜◡＾ )っ✂╰⋃╯", "tag": "wtf"},
   {"content": "ღ╰⋃╯ღ•̥̑ .̮ •̥̑)", "tag": "wtf"},
   {"content": "╰⋃╯ლ(´ڡ`ლ)", "tag": "wtf"},
   {"content": "(₍ˀ˟͈͈͈᷄ළ˟͈͈͈᷅ˁ₎)", "tag": "wtf"}
- ]
-}
+ ],
 
+  getTags: function() {
+    if (this.tags.length > 0) {
+      return this.tags;
+    }
+    this.setTags();
+    return this.tags;
+  },
+
+  setTags: function() {
+    this.tags = this.faces.reduce(function(prev, curr){
+      if (prev.indexOf(curr.tag) === -1) {
+        return prev.concat(curr.tag);
+      }
+      return prev
+    }, []);
+  },
+
+  tagFilter: function(name) {
+    if(this.tags.length < 1) {
+      this.setTags()
+    }
+    if(this.tags.indexOf(name) === -1) {
+      return [];
+    }
+    return this.faces.filter(function(face){
+      return face.tag === name
+    })
+  },
+}
