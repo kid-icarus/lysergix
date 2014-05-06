@@ -42,11 +42,17 @@ describe('Lysergix', function() {
       face.content.should.not.be.empty;
     });
   })
-  describe('getFace', function() {
+  describe('getRandomFace', function() {
     it('Should return a random face', function(){
       var face = lysergix.getRandomFace();
       face.should.not.be.empty;
       face.content.should.not.be.empty;
+    });
+    it('Should return a random tagged face', function(){
+      var face = lysergix.getRandomFace('angry');
+      face.should.not.be.empty;
+      face.content.should.not.be.empty;
+      face.tag.should.equal('angry')
     });
   })
 })

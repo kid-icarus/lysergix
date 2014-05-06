@@ -2278,8 +2278,12 @@ module.exports = {
     return this.faces[id]
   },
 
-  getRandomFace: function() {
-    var index = Math.floor(Math.random() * (this.faces.length));
-    return this.faces[index];
+  getRandomFace: function(tag) {
+    var faces = this.faces
+    if (tag) {
+      faces = this.tagFilter(tag)
+    }
+    var index = Math.floor(Math.random() * (faces.length));
+    return faces[index];
   },
 }
