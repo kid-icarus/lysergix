@@ -2264,7 +2264,7 @@ module.exports = {
       this.setTags();
     }
     if(this.tags.indexOf(name) === -1) {
-      return [];
+      throw 'Error: tag not found';
     }
     return this.faces.filter(function(face){
       return face.tag === name;
@@ -2272,7 +2272,7 @@ module.exports = {
   },
 
   getFace: function(id) {
-    if (id < 0 || id > this.faces.length) {
+    if (typeof id !== 'number' || id < 0 || id > this.faces.length) {
       throw 'Error: id out of range';
     }
     return this.faces[id]

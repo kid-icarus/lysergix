@@ -14,10 +14,13 @@ describe('Lysergix', function() {
     });
   });
   describe('tagFilter', function() {
-    it('Should return an empty array if the tag does not exist', function(){
-      var faces = lysergix.tagFilter('datboiryan');
-      faces.should.be.an.array;
-      faces.should.have.length(0);
+    it('Should throw an error if the tag does not exist', function(){
+      try {
+        lysergix.tagFilter('datboiryan');
+      }
+      catch (e) {
+        e.should.equal('Error: tag not found')
+      }
     })
     it('Should return an empty array if the called without a tag', function(){
       var faces = lysergix.tagFilter();
@@ -41,6 +44,22 @@ describe('Lysergix', function() {
       face.should.not.be.empty;
       face.content.should.not.be.empty;
     });
+    it('Should error out if index is out of range', function() {
+      try {
+        var face = lysergix.getFace(12312312312);
+      }
+      catch(e) {
+        e.should.equal('Error: id out of range');
+      }
+    });
+    it('Should error out if id is not a number', function() {
+      try {
+        var face = lysergix.getFace('test');
+      }
+      catch(e) {
+        e.should.equal('Error: id out of range');
+      }
+    });
   })
   describe('getRandomFace', function() {
     it('Should return a random face', function(){
@@ -53,6 +72,14 @@ describe('Lysergix', function() {
       face.should.not.be.empty;
       face.content.should.not.be.empty;
       face.tag.should.equal('angry')
+    });
+    it('Should error out if given a tag that does not exist', function(){
+      try {
+        var face = lysergix.getRandomFace('datboiryboi');
+      }
+      catch(e) {
+        e.should.equal('Error: tag not found')
+      }
     });
   })
 })
