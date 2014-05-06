@@ -2258,13 +2258,25 @@ module.exports = {
 
   tagFilter: function(name) {
     if(this.tags.length < 1) {
-      this.setTags()
+      this.setTags();
     }
     if(this.tags.indexOf(name) === -1) {
       return [];
     }
     return this.faces.filter(function(face){
-      return face.tag === name
-    })
+      return face.tag === name;
+    });
+  },
+
+  getFace: function(id) {
+    if (id < 0 || id > this.faces.length) {
+      throw 'Error: id out of range';
+    }
+    return this.faces[id]
+  },
+
+  getRandomFace: function() {
+    var index = Math.floor(Math.random() * (this.faces.length));
+    return this.faces[index];
   },
 }

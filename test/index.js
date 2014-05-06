@@ -30,4 +30,18 @@ describe('Lysergix', function() {
       })
     });
   });
+  describe('getFace', function() {
+    it('Should return a face', function(){
+      var face = lysergix.getFace(2);
+      face.should.not.be.empty;
+      face.content.should.not.be.empty;
+    });
+  })
+  describe('getFace', function() {
+    it('Should return a random face', function(){
+      var face = lysergix.getRandomFace();
+      face.should.not.be.empty;
+      face.content.should.not.be.empty;
+    });
+  })
 })
