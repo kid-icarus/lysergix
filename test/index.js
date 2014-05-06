@@ -14,8 +14,13 @@ describe('Lysergix', function() {
     });
   });
   describe('tagFilter', function() {
-    it('Should return an empty array if there is no tag', function(){
+    it('Should return an empty array if the tag does not exist', function(){
       var faces = lysergix.tagFilter('datboiryan');
+      faces.should.be.an.array;
+      faces.should.have.length(0);
+    })
+    it('Should return an empty array if the called without a tag', function(){
+      var faces = lysergix.tagFilter();
       faces.should.be.an.array;
       faces.should.have.length(0);
     })

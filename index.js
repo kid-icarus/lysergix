@@ -2257,6 +2257,9 @@ module.exports = {
   },
 
   tagFilter: function(name) {
+    if (!name) {
+      return [];
+    }
     if(this.tags.length < 1) {
       this.setTags();
     }
