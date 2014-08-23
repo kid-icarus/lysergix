@@ -2271,6 +2271,14 @@ module.exports = {
     });
   },
 
+  asciiFilter: function() {
+    var newFaces = this.faces.filter(function(face){
+      return !/[^\x00-\x7F]+/.test(face.content)
+    })
+    var index = Math.floor(Math.random() * (newFaces.length))
+    return newFaces[index]
+  },
+
   getFace: function(id) {
     if (typeof id !== 'number' || id < 0 || id > this.faces.length) {
       throw 'Error: id out of range';
