@@ -2236,7 +2236,9 @@ module.exports = {
   {"content": "( ◜◡＾ )っ✂╰⋃╯", "tag": "wtf"},
   {"content": "ღ╰⋃╯ღ•̥̑ .̮ •̥̑)", "tag": "wtf"},
   {"content": "╰⋃╯ლ(´ڡ`ლ)", "tag": "wtf"},
-  {"content": "(₍ˀ˟͈͈͈᷄ළ˟͈͈͈᷅ˁ₎)", "tag": "wtf"}
+  {"content": "(₍ˀ˟͈͈͈᷄ළ˟͈͈͈᷅ˁ₎)", "tag": "wtf"},
+  {"content": "qB(", "tag": "sadboi"},
+  {"content": ";_;", "tag": "sadboi"}
  ],
 
   getTags: function() {
