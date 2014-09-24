@@ -1,4 +1,6 @@
 ##Lysergix
+[![view on
+requirebin](http://requirebin.com/badge.png)](http://requirebin.com/?gist=345645c2e31000d7f4f9)
 
 A database of emoticons. An api for pulling utf8 emoticons from the database.
 
