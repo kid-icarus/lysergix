@@ -2264,12 +2264,17 @@ module.exports = {
     if(this.tags.length < 1) {
       this.setTags();
     }
-    if(this.tags.indexOf(name) === -1) {
+    if([].concat(name).some(function(name) {return this.tags.indexOf(name) === -1}, this)) {
       throw 'Error: tag not found';
     }
-    return this.faces.filter(function(face){
-      return face.tag === name;
-    });
+    return this.faces.filter(Array.isArray(name) ?
+      function(face){
+        return name.indexOf(face.tag) >= 0;
+      } :
+      function(face){
+        return face.tag === name;
+      }
+    );
   },
 
   asciiFilter: function() {
