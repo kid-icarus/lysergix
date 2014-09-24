@@ -27,14 +27,29 @@ describe('Lysergix', function() {
       faces.should.be.an.array;
       faces.should.have.length(0);
     })
+    it('Should return an empty array if the called an empty array', function(){
+      var faces = lysergix.tagFilter([]);
+      faces.should.be.an.array;
+      faces.should.have.length(0);
+    })
     it('Should not return an empty array if a tag exists', function(){
       var faces = lysergix.tagFilter('angry');
+      faces.should.not.be.empty;
+    });
+    it('Should not return an empty array if all tags in array exist', function(){
+      var faces = lysergix.tagFilter(['angry', 'sadboi']);
       faces.should.not.be.empty;
     });
     it('Should filter out faces that are not the given tag', function(){
       var faces = lysergix.tagFilter('angry');
       faces.forEach(function(face){
         face.tag.should.equal('angry');
+      })
+    });
+    it('Should filter out faces that are not one of the given tags', function(){
+      var faces = lysergix.tagFilter('angry');
+      faces.forEach(function(face){
+        ['angry', 'sadboi'].should.include(face.tag);
       })
     });
   });
@@ -73,9 +88,23 @@ describe('Lysergix', function() {
       face.content.should.not.be.empty;
       face.tag.should.equal('angry')
     });
+    it('Should return a random tagged face of array of tags', function(){
+      var face = lysergix.getRandomFace(['angry']);
+      face.should.not.be.empty;
+      face.content.should.not.be.empty;
+      face.tag.should.equal('angry')
+    });
     it('Should error out if given a tag that does not exist', function(){
       try {
         var face = lysergix.getRandomFace('datboiryboi');
+      }
+      catch(e) {
+        e.should.equal('Error: tag not found')
+      }
+    });
+    it('Should error out if given any tag that does not exist', function(){
+      try {
+        var face = lysergix.getRandomFace(['angry', 'datboiryboi']);
       }
       catch(e) {
         e.should.equal('Error: tag not found')
